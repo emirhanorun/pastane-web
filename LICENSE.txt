@@ -1,0 +1,12 @@
+GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+
+Copyright (C) 2025 Emirhan Örün
+
+Bu program özgür bir yazılımdır: GNU Genel Kamu Lisansı'nın sürüm 3 veya daha yenisi altında yayınlanabilir.
+Bu programı kopyalayabilir, dağıtabilir ve/veya değiştirebilirsiniz ancak aşağıdaki şartlara uymalısınız:
+
+Bu program, belirli bir amaç için uygunluğu da dahil olmak üzere, hiçbir garanti olmaksızın dağıtılır.
+Daha fazla bilgi için GNU Genel Kamu Lisansı'nın tam metnine bakınız:
+
+https://www.gnu.org/licenses/gpl-3.0.html
