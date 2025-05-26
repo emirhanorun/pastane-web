@@ -9,6 +9,7 @@ Bu proje, pastanelerin QR kod ile ya da doğrudan internet üzerinden menülerin
 - Kolay kurulabilir yapı
 
 ## 🔧 Kurulum
+**Canlı Demo:** [Siteyi Görüntüle](https://emirhanorun.github.io/pastane-web/)
 
 Projeyi çalıştırmak için sadece dosyaları bir sunucuya yüklemeniz yeterlidir. Ekstra bir kurulum ya da bağımlılık gerektirmez.
 # 🥐 Bakery Website
