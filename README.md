@@ -1,17 +1,27 @@
-# Pastane Web Sitesi
+# 🥐 Pastane Web Sitesi (TR)
 
 Bu proje, pastanelerin QR kod ile ya da doğrudan internet üzerinden menülerini müşterilere detaylı ve modern bir şekilde sunmasını sağlar. Kullanıcı dostu, sade ve hızlı çalışan bir yapıya sahiptir.
 
 ## 🚀 Özellikler
+...
 
-- İnternet üzerinden menü görüntüleme
-- Sade ve temiz tasarım
-- Kolay kurulabilir yapı
+## 📄 Lisans
+Bu proje [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.html) lisansı ile lisanslanmıştır.  
+Detaylı bilgi için LICENSE dosyasına bakabilirsiniz.
 
-## 🔧 Kurulum
+---
 
-Projeyi çalıştırmak için sadece dosyaları bir sunucuya yerleştirmeniz yeterlidir. Ekstra kurulum veya yapılandırma gerektirmez.
+# 🥐 Bakery Website (EN)
 
-```bash
-# Örneğin:
-# Tüm dosyaları sunucuya atın ve index.html'yi açın
+This project allows bakeries to present their menus to customers in a detailed and modern way via QR codes or direct internet access. It features a clean, user-friendly, and fast design.
+
+## 🚀 Features
+...
+
+## 📄 License
+This project is licensed under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.html).  
+For more information, see the LICENSE file.
+
+---
+
+Emirhan Örün – 2025
