@@ -17,7 +17,7 @@ This project allows bakeries to present their menus to customers in a detailed a
 
 ## 🚀 Features
 
-- Quick access to the menu via QR code  
+
 - Online menu viewing  
 - Simple and clean design  
 - Easy-to-setup structure
