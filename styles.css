@@ -1,0 +1,234 @@
+/* Genel Ayarlar */bir
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Daha modern ve okunabilir bir font */
+    background-color: #f9f9f9; /* Yumuşak bir arka plan rengi */
+    color: #333;
+    line-height: 1.6;
+    user-select: none; /* Kullanıcıların metin seçmesini engeller */
+    -webkit-user-select: none; /* Chrome, Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+
+}
+
+/* Header - Başlık ve Menü */
+header {
+    background-color: #000000; /* Mor renk, şıklık katacak */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    font-family: 'Pacifico', cursive; /* El yazısı stilinde başlık fontu */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f39c12; /* Hover rengi sarı-gold */
+}
+
+/* Bölüm Stilleri */
+section {
+    padding: 40px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #000000;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: 'Pacifico', cursive;
+}
+
+.menu-item {
+    display: inline-block;
+    width: 30%;
+    margin-right: 2%;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+    transform: scale(1.05); /* Hoverda item büyümesi */
+}
+
+.menu-item img:hover {
+    transform: scale(1.1); /* Hoverda resim büyümesi */
+}
+
+.menu-item h3 {
+    font-size: 1.5rem;
+    color: #000000;
+    margin: 15px 0;
+}
+
+.menu-item p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Form Tasarımı */
+form input, form select, form textarea, form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form button {
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 1.2rem;
+    padding: 15px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #000000; /* Hoverda renk değişimi */
+}
+
+/* Footer - Alt Bilgi */
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 1rem;
+}
+
+/* İletişim ve Sipariş Formları */
+form label {
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+form textarea {
+    resize: vertical; /* Kullanıcıların metin kutusunu dikey olarak büyütmesini sağlar */
+    height: 150px;
+}
+
+
+
+
+
+/* Menü Kartları: Daha kompakt yapıda */
+.menu-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 280px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.menu-card:hover {
+  transform: scale(1.03);
+}
+
+.menu-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Başlıklar ve yazılar daha küçük */
+.menu-card h3 {
+  font-size: 1.1rem;
+  margin: 10px 0 5px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.menu-card p {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* Responsive düzen */
+#menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 15px;
+}
+
+/* 1) 0–480px: Tek sütun */
+@media (max-width: 480px) {
+  .menu-card {
+    max-width: 90%;
+  }
+}
+
+/* 2) 481px–768px: İki sütun */
+@media (min-width: 481px) and (max-width: 768px) {
+  .menu-card {
+    max-width: 45%;
+  }
+}
+
+/* 3) 769px–1024px: Üç sütun */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .menu-card {
+    max-width: 30%;
+  }
+}
+
+/* 4) 1025px ve üzeri: Üç sütun sabit */
+@media (min-width: 1025px) {
+  .menu-card {
+    max-width: 280px;
+  }
+}
